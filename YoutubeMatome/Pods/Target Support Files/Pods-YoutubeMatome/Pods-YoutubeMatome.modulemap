@@ -1,0 +1,6 @@
+framework module Pods_YoutubeMatome {
+  umbrella header "Pods-YoutubeMatome-umbrella.h"
+
+  export *
+  module * { export * }
+}

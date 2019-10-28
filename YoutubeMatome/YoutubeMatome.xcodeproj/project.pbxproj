@@ -3,19 +3,30 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		411AA8BA3633A7716B806D96 /* Pods_YoutubeMatome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D92BD980190550E4E80E26D6 /* Pods_YoutubeMatome.framework */; };
 		FE7DBDF92365C8B800C3E27B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7DBDF82365C8B800C3E27B /* AppDelegate.swift */; };
 		FE7DBDFB2365C8B800C3E27B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7DBDFA2365C8B800C3E27B /* SceneDelegate.swift */; };
 		FE7DBDFD2365C8B800C3E27B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7DBDFC2365C8B800C3E27B /* ViewController.swift */; };
 		FE7DBE002365C8B800C3E27B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE7DBDFE2365C8B800C3E27B /* Main.storyboard */; };
 		FE7DBE022365C8BD00C3E27B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE7DBE012365C8BD00C3E27B /* Assets.xcassets */; };
 		FE7DBE052365C8BD00C3E27B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE7DBE032365C8BD00C3E27B /* LaunchScreen.storyboard */; };
+		FEC82EFB2365DC840080D145 /* Page1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC82EFA2365DC840080D145 /* Page1ViewController.swift */; };
+		FEC82EFD23666DDC0080D145 /* YoutubeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC82EFC23666DDC0080D145 /* YoutubeData.swift */; };
+		FEC82EFF2366A0C30080D145 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC82EFE2366A0C30080D145 /* WebViewController.swift */; };
+		FEC82F012366BF780080D145 /* Page2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC82F002366BF780080D145 /* Page2ViewController.swift */; };
+		FEC82F032366BF840080D145 /* Page3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC82F022366BF840080D145 /* Page3ViewController.swift */; };
+		FEC82F052366BF8C0080D145 /* Page4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC82F042366BF8C0080D145 /* Page4ViewController.swift */; };
+		FEC82F072366BF950080D145 /* Page5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC82F062366BF950080D145 /* Page5ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C3999AD8AED8D1DF46E6AFF /* Pods-YoutubeMatome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoutubeMatome.debug.xcconfig"; path = "Target Support Files/Pods-YoutubeMatome/Pods-YoutubeMatome.debug.xcconfig"; sourceTree = "<group>"; };
+		D92BD980190550E4E80E26D6 /* Pods_YoutubeMatome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YoutubeMatome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF507DCC3ED14BBEBC55E4C8 /* Pods-YoutubeMatome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoutubeMatome.release.xcconfig"; path = "Target Support Files/Pods-YoutubeMatome/Pods-YoutubeMatome.release.xcconfig"; sourceTree = "<group>"; };
 		FE7DBDF52365C8B800C3E27B /* YoutubeMatome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YoutubeMatome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE7DBDF82365C8B800C3E27B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FE7DBDFA2365C8B800C3E27B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +35,13 @@
 		FE7DBE012365C8BD00C3E27B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE7DBE042365C8BD00C3E27B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE7DBE062365C8BD00C3E27B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEC82EFA2365DC840080D145 /* Page1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page1ViewController.swift; sourceTree = "<group>"; };
+		FEC82EFC23666DDC0080D145 /* YoutubeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeData.swift; sourceTree = "<group>"; };
+		FEC82EFE2366A0C30080D145 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		FEC82F002366BF780080D145 /* Page2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page2ViewController.swift; sourceTree = "<group>"; };
+		FEC82F022366BF840080D145 /* Page3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page3ViewController.swift; sourceTree = "<group>"; };
+		FEC82F042366BF8C0080D145 /* Page4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page4ViewController.swift; sourceTree = "<group>"; };
+		FEC82F062366BF950080D145 /* Page5ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page5ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +49,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				411AA8BA3633A7716B806D96 /* Pods_YoutubeMatome.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7806862157BC1DF12B2B6038 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D92BD980190550E4E80E26D6 /* Pods_YoutubeMatome.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BED995FFEE2845B9422A5529 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1C3999AD8AED8D1DF46E6AFF /* Pods-YoutubeMatome.debug.xcconfig */,
+				EF507DCC3ED14BBEBC55E4C8 /* Pods-YoutubeMatome.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		FE7DBDEC2365C8B800C3E27B = {
 			isa = PBXGroup;
 			children = (
 				FE7DBDF72365C8B800C3E27B /* YoutubeMatome */,
 				FE7DBDF62365C8B800C3E27B /* Products */,
+				BED995FFEE2845B9422A5529 /* Pods */,
+				7806862157BC1DF12B2B6038 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +94,46 @@
 		FE7DBDF72365C8B800C3E27B /* YoutubeMatome */ = {
 			isa = PBXGroup;
 			children = (
-				FE7DBDF82365C8B800C3E27B /* AppDelegate.swift */,
-				FE7DBDFA2365C8B800C3E27B /* SceneDelegate.swift */,
-				FE7DBDFC2365C8B800C3E27B /* ViewController.swift */,
-				FE7DBDFE2365C8B800C3E27B /* Main.storyboard */,
-				FE7DBE012365C8BD00C3E27B /* Assets.xcassets */,
-				FE7DBE032365C8BD00C3E27B /* LaunchScreen.storyboard */,
+				FE7DBE0E2365CE6700C3E27B /* Model */,
+				FE7DBE0D2365CE6000C3E27B /* View */,
+				FE7DBE0C2365CE5300C3E27B /* Controller */,
 				FE7DBE062365C8BD00C3E27B /* Info.plist */,
 			);
 			path = YoutubeMatome;
+			sourceTree = "<group>";
+		};
+		FE7DBE0C2365CE5300C3E27B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FE7DBDF82365C8B800C3E27B /* AppDelegate.swift */,
+				FE7DBDFA2365C8B800C3E27B /* SceneDelegate.swift */,
+				FE7DBDFC2365C8B800C3E27B /* ViewController.swift */,
+				FEC82EFA2365DC840080D145 /* Page1ViewController.swift */,
+				FEC82EFE2366A0C30080D145 /* WebViewController.swift */,
+				FEC82F002366BF780080D145 /* Page2ViewController.swift */,
+				FEC82F022366BF840080D145 /* Page3ViewController.swift */,
+				FEC82F042366BF8C0080D145 /* Page4ViewController.swift */,
+				FEC82F062366BF950080D145 /* Page5ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FE7DBE0D2365CE6000C3E27B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FE7DBDFE2365C8B800C3E27B /* Main.storyboard */,
+				FE7DBE012365C8BD00C3E27B /* Assets.xcassets */,
+				FE7DBE032365C8BD00C3E27B /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FE7DBE0E2365CE6700C3E27B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FEC82EFC23666DDC0080D145 /* YoutubeData.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +143,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FE7DBE092365C8BD00C3E27B /* Build configuration list for PBXNativeTarget "YoutubeMatome" */;
 			buildPhases = (
+				56C5146FFBECC5276E818662 /* [CP] Check Pods Manifest.lock */,
 				FE7DBDF12365C8B800C3E27B /* Sources */,
 				FE7DBDF22365C8B800C3E27B /* Frameworks */,
 				FE7DBDF32365C8B800C3E27B /* Resources */,
+				7E24DCF2B86062626D4673FF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +204,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		56C5146FFBECC5276E818662 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YoutubeMatome-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E24DCF2B86062626D4673FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YoutubeMatome/Pods-YoutubeMatome-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YoutubeMatome/Pods-YoutubeMatome-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YoutubeMatome/Pods-YoutubeMatome-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FE7DBDF12365C8B800C3E27B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				FE7DBDFD2365C8B800C3E27B /* ViewController.swift in Sources */,
+				FEC82EFF2366A0C30080D145 /* WebViewController.swift in Sources */,
+				FEC82F052366BF8C0080D145 /* Page4ViewController.swift in Sources */,
+				FEC82EFD23666DDC0080D145 /* YoutubeData.swift in Sources */,
+				FEC82F032366BF840080D145 /* Page3ViewController.swift in Sources */,
+				FEC82F072366BF950080D145 /* Page5ViewController.swift in Sources */,
+				FEC82EFB2365DC840080D145 /* Page1ViewController.swift in Sources */,
 				FE7DBDF92365C8B800C3E27B /* AppDelegate.swift in Sources */,
 				FE7DBDFB2365C8B800C3E27B /* SceneDelegate.swift in Sources */,
+				FEC82F012366BF780080D145 /* Page2ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +402,7 @@
 		};
 		FE7DBE0A2365C8BD00C3E27B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C3999AD8AED8D1DF46E6AFF /* Pods-YoutubeMatome.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -299,6 +420,7 @@
 		};
 		FE7DBE0B2365C8BD00C3E27B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF507DCC3ED14BBEBC55E4C8 /* Pods-YoutubeMatome.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
